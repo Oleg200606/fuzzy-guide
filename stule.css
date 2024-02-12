@@ -1,0 +1,26 @@
+html body{
+    background-color: rgb(29, 29, 29);
+    
+}
+
+.font{
+    background:  url(Fonari.jpg) center center/cover no-repeat;
+    min-height: 80vh;
+}
+
+footer{
+    margin-top: 10vh;
+    text-align: center; 
+    color: rgb(255, 243, 243); 
+
+}
+
+@media (max-width: 768px) {
+    .nav-links, .buttons, .social-icons {
+        flex-direction: column;
+    }
+
+    .nav-links a, .buttons button {
+        margin-bottom: 10px;
+    }
+}
