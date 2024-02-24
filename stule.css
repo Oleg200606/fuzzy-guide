@@ -3,9 +3,10 @@ html body{
     
 }
 
+
 .font{
     background:  url(Fonari.jpg) center center/cover no-repeat;
-    min-height: 80vh;
+    min-height: 80vh ;
 }
 
 footer{
@@ -15,12 +16,19 @@ footer{
 
 }
 
-@media (max-width: 768px) {
-    .nav-links, .buttons, .social-icons {
-        flex-direction: column;
-    }
 
-    .nav-links a, .buttons button {
-        margin-bottom: 10px;
+.container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; 
     }
 }
+
